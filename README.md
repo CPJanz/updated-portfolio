@@ -1,4 +1,5 @@
 # updated-portfolio
+https://cpjanz.github.io/updated-portfolio/
 
 TODO: Pin desired Repos (Project 1 and 2-3 homework assignments).
 ## Portfolio Requirements:
