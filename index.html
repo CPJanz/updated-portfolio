@@ -14,14 +14,15 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark" style="overflow: hidden; height: 45px; border-bottom: 3px solid black;">
+    <input type="checkbox" name="hamburger-toggle" id="hamburger-toggle">
+    <nav class="navbar navbar-dark bg-dark sticky-top" style="overflow: hidden; border-bottom: 3px solid black;">
 
         <div class="bg-light" style="transform: translateY(-210px) translateX(-250px) rotate(45deg); height: 400px; width: 400px">
             <a href="/" class="navbar-brand" style="transform: rotate(-45deg) translateY(178px) translateX(40px); height: 30px; width: 300px; text-align: center; color:black;">
                 <h1>Carl Janz</h1>
             </a>
         </div>
-
+        <!-- d-md-inline-block -->
         <div class="bg-light ml-auto d-none d-md-inline-block" style="transform: translateY(-163px) translateX(0px) rotate(-45deg); height: 300px; width: 300px">
             <div style="transform:rotate(45deg) translateY(112px) translateX(67px); width: 400px;">
                 <a href="#" class="link-dark">
@@ -33,12 +34,29 @@
                 <a href="#" class="link-dark">
                     <h3 class="d-inline px-2">Contact</h3>
                 </a>
-
             </div>
-
         </div>
         <div class="ml-auto d-xs-inline-block d-md-none text-light">
-            <i class="fas fa-bars text-light" style="transform: translateY(-183px)" id="hamburger"></i>
+            <label for="hamburger-toggle"> <i class="fas fa-bars text-light" style="transform: translateY(-78px) translatex(105px)" id="hamburger"></i></label>
+            <div style="transform: translateY(-70px) translateX(10px); line-height: 4rem; text-align: right;" class="collapsed-content">
+                <ul>
+                    <li>
+                        <a href="#" class="link-light">
+                            <h3 class="d-inline px-2">About</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link-light">
+                            <h3 class="d-inline px-2">Portfolio</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link-light">
+                            <h3 class="d-inline px-2">Contact</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <div class="container pt-3 image-container ">

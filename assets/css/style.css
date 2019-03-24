@@ -28,3 +28,16 @@ a:hover {
 #hamburger {
     font-size: 25px;
 }
+
+nav {
+    height: 45px;
+    transition: height 800ms ease-in-out;
+}
+
+#hamburger-toggle:checked~nav {
+    height: 250px;
+}
+
+#hamburger-toggle {
+    display: none;
+}

@@ -1,5 +1,23 @@
 # updated-portfolio
 
+TODO: Pin desired Repos (Project 1 and 2-3 homework assignments).
+## Portfolio Requirements:
+### Content:
+
+
+* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
+* A link to a PDF of your resume
+* List of projects. For each project make sure you have the following:
+  * Project title
+  * Link to the deployed version
+  * Link to the code on GitHub
+* Link a PDF of your resume to your site
+
+### Design:
+
+* Mobile-friendliness
+* Readability
+
 
 ##Instructions
 
