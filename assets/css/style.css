@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+body {
+    background-image: url(../images/dark-honeycomb/dark-honeycomb.png);
+}
+
+h1,
+h3 {
+    font-family: 'Righteous', cursive;
+}
+
+a.link-dark {
+    color: #343a40;
+}
+
+a.link-light {
+    color: #f8f9fa;
+}
+
+a {
+    transition: color .5s;
+}
+
+a:hover {
+    color: #fda102;
+    text-decoration: none;
+}
+
+#hamburger {
+    font-size: 25px;
+}
