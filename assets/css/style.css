@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');
+:root {
+    --dark-color: #343a40;
+    --light-color: #f8f9fa;
+    --accent-color: #fda102;
+}
+
 body {
     background-image: url(../images/dark-honeycomb/dark-honeycomb.png);
 }
@@ -8,20 +14,42 @@ h3 {
     font-family: 'Righteous', cursive;
 }
 
+h1 {
+    color: var(--dark-color);
+    transform: skewX(45deg);
+    padding: 0 33px;
+}
+
+nav {
+    border-bottom: 2px solid var(--accent-color);
+    background-color: var(--dark-color);
+}
+
+.navbar-brand {
+    background-color: var(--light-color);
+    transform: skewX(-45deg) translateX(-33px);
+}
+
+.navbar-toggler {
+    border: none;
+    color: var(--light-color)
+}
+
 .link-dark {
-    color: #343a40;
+    color: var(--dark-color);
 }
 
 .link-light {
-    color: #f8f9fa;
+    color: var(--light-color);
 }
 
-a {
+nav h3 {
     transition: color .5s;
+    padding: 12px 0;
 }
 
-a:hover {
-    color: #fda102;
+nav h3:hover {
+    color: var(--accent-color);
     text-decoration: none;
 }
 
@@ -34,21 +62,23 @@ a:hover {
     width: 200px;
 }
 
-
-/* #hamburger {
-    font-size: 25px;
+.navbar-nav {
+    transform: skewX(-45deg) translateX(45px);
+    padding: .50px 30px 0;
+    background-color: var(--light-color);
 }
 
-nav {
-    height: 45px;
-    overflow: hidden;
-    transition: height 800ms ease-in-out;
+.navbar-nav h3 {
+    transform: skewX(45deg) translateX(-15px);
 }
 
-#hamburger-toggle:checked~nav {
-    height: 233px;
+@media only screen and (max-width: 991px) {
+    .navbar-nav,
+    .navbar-nav h3 {
+        transform: skewX(0deg) translateX(0px);
+        background-color: var(--dark-color);
+    }
+    .navbar-nav h3 {
+        color: var(--light-color);
+    }
 }
-
-#hamburger-toggle {
-    display: none;
-} */

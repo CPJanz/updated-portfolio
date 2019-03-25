@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -14,36 +14,53 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top p-0">
-        <a class="navbar-brand bg-light" style="transform: skewX(-45deg) translateX(-33px)" href="#">
-            <h1 class="link-dark" style="transform: skewX(45deg); padding: 0 33px">Carl Janz</h1>
+
+    <!-- ----------------------------------- 
+
+                NAV BAR
+
+    ------------------------------------ -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top p-0">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            <h1>Carl Janz</h1>
         </a>
-        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+        <!-- Hamburger -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Nav -->
         <div class="collapse navbar-collapse px-2" id="navbarNav">
-            <ul class="navbar-nav ml-auto text-right bg-light" style="transform: skewX(-45deg) translateX(45px); padding: 0 30px">
+            <ul class="navbar-nav ml-auto text-right">
                 <li class="nav-item active">
                     <a class="nav-link py-0" href="#about">
-                        <h3 class="link-dark" style="transform: skewX(45deg) translateX(-15px);">About</h3> <span class="sr-only">(current)</span></a>
+                        <h3 class="link-dark">About</h3> <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link link-dark py-0" href="#portfolio">
-                        <h3 class="link-dark" style="transform: skewX(45deg) translateX(-15px);">Portfolio</h3>
+                        <h3 class="link-dark">Portfolio</h3>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link link-dark py-0" href="#contact">
-                        <h3 class="link-dark" style="transform: skewX(45deg) translateX(-15px);">Contact</h3>
+                        <h3 class="link-dark">Contact</h3>
                     </a>
                 </li>
             </ul>
         </div>
     </nav>
 
+    <!-- ----------------------------------- 
+
+                    ABOUT
+
+    ------------------------------------ -->
 
     <div class="container pt-3 image-container " id="about">
         <div class="row ">
+            <!-- Headshot card -->
             <div class="col-12 col-md-4 ">
                 <img src="assets/images/headshot.jpg " alt="Carl Janz " class="border border-bottom-0 " style="width: 100% ">
                 <div class="text-light py-1 text-center bg-dark border border-top-0 ">
@@ -61,16 +78,32 @@
                     </a>
                 </div>
             </div>
+            <!-- Personal Brand card -->
             <div class="col-12 col-md-8 bg-primary ">
                 <h3>Hello</h3>
             </div>
         </div>
     </div>
 
+    <!-- ----------------------------------- 
+
+                TRANSITION
+
+    ------------------------------------ -->
+
+
     <div class="transition"></div>
+
+    <!-- ----------------------------------- 
+
+                PORTFOLIO
+
+    ------------------------------------ -->
+
 
     <div class="container pt-3 image-container " id="portfolio">
         <div class="row ">
+            <!-- Project card list -->
             <div class="col-12 col-md-8 bg-primary ">
                 <div class="row">
                     <div class="col col-md-3 bg-light m-2 project-card">one</div>
@@ -81,13 +114,26 @@
                     <div class="col col-md-3 bg-light m-2 project-card">six</div>
                 </div>
             </div>
+            <!-- Project description -->
             <div class="col-12 col-md-4 bg-dark">
                 <h3>Hello!</h3>
             </div>
         </div>
     </div>
 
+    <!-- ----------------------------------- 
+
+                TRANSITION
+
+    ------------------------------------ -->
+
     <div class="transition"></div>
+
+    <!-- ----------------------------------- 
+
+                CONTACK
+
+    ------------------------------------ -->
 
     <div class="container pt-3 image-container " id="contact">
         <div class="row ">
@@ -114,24 +160,15 @@
         </div>
     </div>
 
+    <!-- ----------------------------------- 
 
+                JS LINKS
 
+    ------------------------------------ -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous"></script>
 </body>
 
 </html>
