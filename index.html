@@ -14,53 +14,35 @@
 </head>
 
 <body>
-    <input type="checkbox" name="hamburger-toggle" id="hamburger-toggle">
-
-    <!-- overflow: hidden -->
-    <nav class="navbar navbar-dark bg-dark sticky-top" style="border-bottom: 3px solid black;">
-
-        <div class="bg-light" style="transform: translateY(-186px) translateX(-215px) rotate(45deg); height: 355px; width: 355px">
-            <a href="/" class="navbar-brand" style="transform: rotate(-45deg) translateY(140px) translateX(20px); height: 30px; width: 300px; text-align: center; color:black;">
-                <h1>Carl Janz</h1>
-            </a>
-        </div>
-        <div class="bg-light ml-auto d-none d-md-inline-block" style="transform: translateY(-143px) translateX(0px) rotate(-45deg); height: 300px; width: 300px">
-            <div style="transform:rotate(45deg) translateY(111px) translateX(67px); width: 400px;">
-                <a href="#" class="link-dark">
-                    <h3 class="d-inline px-2">About</h3>
-                </a>
-                <a href="#" class="link-dark">
-                    <h3 class="d-inline px-2">Portfolio</h3>
-                </a>
-                <a href="#" class="link-dark">
-                    <h3 class="d-inline px-2">Contact</h3>
-                </a>
-            </div>
-        </div>
-        <div class="ml-auto d-inline-block d-md-none text-light">
-            <label for="hamburger-toggle"> <i class="fas fa-bars text-light" style="transform: translateY(-55px) translatex(105px)" id="hamburger"></i></label>
-            <div style="transform: translateY(-60px) translateX(10px); line-height: 4rem; text-align: right;" class="collapsed-content">
-                <ul>
-                    <li>
-                        <a href="#" class="link-light">
-                            <h3 class="d-inline px-2">About</h3>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="link-light">
-                            <h3 class="d-inline px-2">Portfolio</h3>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="link-light">
-                            <h3 class="d-inline px-2">Contact</h3>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top p-0">
+        <a class="navbar-brand bg-light" style="transform: skewX(-45deg) translateX(-33px)" href="#">
+            <h1 class="link-dark" style="transform: skewX(45deg); padding: 0 33px">Carl Janz</h1>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+        <div class="collapse navbar-collapse px-2" id="navbarNav">
+            <ul class="navbar-nav ml-auto text-right bg-light" style="transform: skewX(-45deg) translateX(45px); padding: 0 30px">
+                <li class="nav-item active">
+                    <a class="nav-link py-0" href="#about">
+                        <h3 class="link-dark" style="transform: skewX(45deg) translateX(-15px);">About</h3> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-dark py-0" href="#portfolio">
+                        <h3 class="link-dark" style="transform: skewX(45deg) translateX(-15px);">Portfolio</h3>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-dark py-0" href="#contact">
+                        <h3 class="link-dark" style="transform: skewX(45deg) translateX(-15px);">Contact</h3>
+                    </a>
+                </li>
+            </ul>
         </div>
     </nav>
-    <div class="container pt-3 image-container ">
+
+
+    <div class="container pt-3 image-container " id="about">
         <div class="row ">
             <div class="col-12 col-md-4 ">
                 <img src="assets/images/headshot.jpg " alt="Carl Janz " class="border border-bottom-0 " style="width: 100% ">
@@ -85,7 +67,52 @@
         </div>
     </div>
 
+    <div class="transition"></div>
 
+    <div class="container pt-3 image-container " id="portfolio">
+        <div class="row ">
+            <div class="col-12 col-md-8 bg-primary ">
+                <div class="row">
+                    <div class="col col-md-3 bg-light m-2 project-card">one</div>
+                    <div class="col col-md-3 bg-light m-2 project-card">two</div>
+                    <div class="col col-md-3 bg-light m-2 project-card">three</div>
+                    <div class="col col-md-3 bg-light m-2 project-card">four</div>
+                    <div class="col col-md-3 bg-light m-2 project-card">five</div>
+                    <div class="col col-md-3 bg-light m-2 project-card">six</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 bg-dark">
+                <h3>Hello!</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="transition"></div>
+
+    <div class="container pt-3 image-container " id="contact">
+        <div class="row ">
+            <div class="col-12 col-md-4 ">
+                <img src="assets/images/headshot.jpg " alt="Carl Janz " class="border border-bottom-0 " style="width: 100% ">
+                <div class="text-light py-1 text-center bg-dark border border-top-0 ">
+                    <a href="# " class="link-light ">
+                        <h4 class=" d-inline px-3 "><i class="fab fa-github "></i></h4>
+                    </a>
+                    <a href="# " class="link-light ">
+                        <h4 class="d-inline px-3 "><i class="fab fa-linkedin "></i></h4>
+                    </a>
+                    <a href="# " class="link-light ">
+                        <h4 class="d-inline px-3 "><i class="fas fa-at "></i></h4>
+                    </a>
+                    <a href="# " class="link-light ">
+                        <h4 class="d-inline px-3 "><i class="far fa-file "></i></h4>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-8 bg-primary ">
+                <h3>Hello</h3>
+            </div>
+        </div>
+    </div>
 
 
 

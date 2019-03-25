@@ -8,11 +8,11 @@ h3 {
     font-family: 'Righteous', cursive;
 }
 
-a.link-dark {
+.link-dark {
     color: #343a40;
 }
 
-a.link-light {
+.link-light {
     color: #f8f9fa;
 }
 
@@ -25,7 +25,17 @@ a:hover {
     text-decoration: none;
 }
 
-#hamburger {
+.transition {
+    height: 300px;
+}
+
+.project-card {
+    height: 200px;
+    width: 200px;
+}
+
+
+/* #hamburger {
     font-size: 25px;
 }
 
@@ -41,4 +51,4 @@ nav {
 
 #hamburger-toggle {
     display: none;
-}
+} */
