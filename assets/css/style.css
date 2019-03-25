@@ -31,11 +31,12 @@ a:hover {
 
 nav {
     height: 45px;
+    overflow: hidden;
     transition: height 800ms ease-in-out;
 }
 
 #hamburger-toggle:checked~nav {
-    height: 250px;
+    height: 233px;
 }
 
 #hamburger-toggle {
