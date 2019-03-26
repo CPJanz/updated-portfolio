@@ -22,9 +22,9 @@
     ------------------------------------ -->
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <!-- Logo -->
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand skew-element" href="#">
             <h1>Carl Janz</h1>
         </a>
         <!-- Hamburger -->
@@ -33,18 +33,18 @@
         </button>
         <!-- Nav -->
         <div class="collapse navbar-collapse px-2" id="navbarNav">
-            <ul class="navbar-nav ml-auto text-right">
+            <ul class="navbar-nav skew-element ml-auto text-right">
                 <li class="nav-item active">
-                    <a class="nav-link py-0" href="#about">
+                    <a class="nav-link py-0" href="#about-a">
                         <h3 class="link-dark">About</h3> <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link-dark py-0" href="#portfolio">
+                    <a class="nav-link link-dark py-0" href="#portfolio-a">
                         <h3 class="link-dark">Portfolio</h3>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link-dark py-0" href="#contact">
+                    <a class="nav-link link-dark py-0" href="#contact-a">
                         <h3 class="link-dark">Contact</h3>
                     </a>
                 </li>
@@ -57,30 +57,39 @@
                     ABOUT
 
     ------------------------------------ -->
-
+    <div id="about-a"></div>
     <div class="container pt-3 image-container " id="about">
         <div class="row ">
             <!-- Headshot card -->
             <div class="col-12 col-md-4 ">
                 <img src="assets/images/headshot.jpg " alt="Carl Janz " class="border border-bottom-0 " style="width: 100% ">
                 <div class="text-light py-1 text-center bg-dark border border-top-0 ">
-                    <a href="# " class="link-light ">
+                    <a href="https://github.com/CPJanz/" target="_blank" class="link-light">
                         <h4 class=" d-inline px-3 "><i class="fab fa-github "></i></h4>
                     </a>
-                    <a href="# " class="link-light ">
+                    <a href="https://www.linkedin.com/in/carl-janz-46906830/" target="_blank" class="link-light">
                         <h4 class="d-inline px-3 "><i class="fab fa-linkedin "></i></h4>
                     </a>
-                    <a href="# " class="link-light ">
+                    <a href="mailto:carl.janz@gmail.com" target="_blank" class="link-light">
                         <h4 class="d-inline px-3 "><i class="fas fa-at "></i></h4>
                     </a>
-                    <a href="# " class="link-light ">
+                    <a href="https://drive.google.com/open?id=1jUFJ6RAS53445LLpBEs0gs9xAp6EeySY" target="_blank" class="link-light">
                         <h4 class="d-inline px-3 "><i class="far fa-file "></i></h4>
                     </a>
                 </div>
             </div>
             <!-- Personal Brand card -->
-            <div class="col-12 col-md-8 bg-primary ">
-                <h3>Hello</h3>
+            <div class="col-12 col-md-8 light-card">
+                <div class="light-card-header dark-skew-element brand-card-head-skew">
+                    <h2 class="brand-title-text">About Me</h2>
+                </div>
+                <div class="light-card-body">
+                    <p>Full stack web developer with a passion for creating tools that help people work more efficiently. Formerly, a QA Analyst at a mobile game company, I developed my programming knowledge and began creating tools to help my coworkers
+                        to perform more efficiently. Since then, I have completed the full-time web development and filled in the holes in my knowledge as a taught developer.</p>
+
+                    <p>Full stack web developer with a passion for creating tools that help people work more efficiently. Formerly, a QA Analyst at a mobile game company, I developed my programming knowledge and began creating tools to help my coworkers
+                        to perform more efficiently. Since then, I have completed the full-time web development and filled in the holes in my knowledge as a taught developer.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -99,24 +108,82 @@
                 PORTFOLIO
 
     ------------------------------------ -->
-
-
-    <div class="container pt-3 image-container " id="portfolio">
-        <div class="row ">
-            <!-- Project card list -->
-            <div class="col-12 col-md-8 bg-primary ">
+    <div id="portfolio-a"></div>
+    <div class="container pt-3 image-container" id="portfolio">
+        <div class="row">
+            <div class="col-6">
+                <img class="d-none d-lg-inline portfolio-hero border" src="assets/images/food_hero.PNG" alt="Food for Thought">
+            </div>
+            <div class="col-lg-6 portfolio-card border">
                 <div class="row">
-                    <div class="col col-md-3 bg-light m-2 project-card">one</div>
-                    <div class="col col-md-3 bg-light m-2 project-card">two</div>
-                    <div class="col col-md-3 bg-light m-2 project-card">three</div>
-                    <div class="col col-md-3 bg-light m-2 project-card">four</div>
-                    <div class="col col-md-3 bg-light m-2 project-card">five</div>
-                    <div class="col col-md-3 bg-light m-2 project-card">six</div>
+                    <div class=" portfolio-card-head-skew skew-element">
+                        <h4 class="portfolio-title-text anti-skew-element">Food for Thought</h4>
+                        <a href="https://github.com/hunterwiegand/Food-for-Thought" target="_blank" class="icon-link link-dark anti-skew-element">
+                            <h4><i class="fab fa-github "></i></h4>
+                        </a>
+                        <a href="https://github.com/hunterwiegand/Food-for-Thought" target="_blank" class="icon-link link-dark anti-skew-element">
+                            <h4><i class="fas fa-desktop"></i></h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="row portfolio-text-container">
+                    <p class="portfolio-description portfolio-text">Catalogue your pantry, search for recipes, and plan your meals with this easy to use web application.</p>
+
+                    <p class="portfolio-notes portfolio-text">Worked with small group over the course of a week to put together a meal planning site.</p>
+
+                    <p class="portfolio-notes portfolio-text">Technologies used: firebase for storing user data and secure login, api calls to Edamam, and the fullCalendar JS project.</p>
                 </div>
             </div>
-            <!-- Project description -->
-            <div class="col-12 col-md-4 bg-dark">
-                <h3>Hello!</h3>
+        </div>
+
+        <div class="row  portfolio-row">
+            <div class="col-lg-6 portfolio-card border">
+                <div class="row">
+                    <div class=" portfolio-card-head-skew skew-element">
+                        <h4 class="portfolio-title-text anti-skew-element">The Arena</h4>
+                        <a href="https://github.com/CPJanz/unit-4-game" target="_blank" class="icon-link link-dark anti-skew-element">
+                            <h4><i class="fab fa-github "></i></h4>
+                        </a>
+                        <a href="http://cpjanz.github.io/unit-4-game" target="_blank" class="icon-link link-dark anti-skew-element">
+                            <h4><i class="fas fa-desktop"></i></h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="row portfolio-text-container">
+                    <p class="portfolio-description portfolio-text">Welcome to the arena where fearsome combat for supremecy!</p>
+
+                    <p class="portfolio-notes portfolio-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente facilis voluptate voluptatibus adipisci doloremque consequuntur soluta.</p>
+
+                    <p class="portfolio-notes portfolio-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente facilis voluptate voluptatibus adipisci doloremque consequuntur soluta.</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <img class="d-none d-lg-inline portfolio-hero border" src="assets/images/rpg_hero.PNG" alt="The Arena">
+            </div>
+        </div>
+        <div class="row portfolio-row">
+            <div class="col-6">
+                <img class="d-none d-lg-inline portfolio-hero border" src="assets/images/word_guess_hero.PNG" alt="Word Guess Game">
+            </div>
+            <div class="col-lg-6 portfolio-card border">
+                <div class="row">
+                    <div class="portfolio-card-head-skew skew-element">
+                        <h4 class="portfolio-title-text anti-skew-element">Who's That Pokemon</h4>
+                        <a href="https://github.com/CPJanz/Word-Guess-Game" target="_blank" class="icon-link link-dark anti-skew-element">
+                            <h4><i class="fab fa-github "></i></h4>
+                        </a>
+                        <a href="https://cpjanz.github.io/Word-Guess-Game/" target="_blank" class="icon-link link-dark anti-skew-element">
+                            <h4><i class="fas fa-desktop"></i></h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="row portfolio-text-container">
+                    <p class="portfolio-description portfolio-text">Can you guess the pokemon whose name is hidden in the pokeballs before you run out of guesses?</p>
+
+                    <p class="portfolio-notes portfolio-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente facilis voluptate voluptatibus adipisci doloremque consequuntur soluta.</p>
+
+                    <p class="portfolio-notes portfolio-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente facilis voluptate voluptatibus adipisci doloremque consequuntur soluta.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -127,38 +194,40 @@
 
     ------------------------------------ -->
 
-    <div class="transition"></div>
+    <div class="transition "></div>
 
     <!-- ----------------------------------- 
 
-                CONTACK
+                CONTACT
 
     ------------------------------------ -->
-
-    <div class="container pt-3 image-container " id="contact">
-        <div class="row ">
-            <div class="col-12 col-md-4 ">
-                <img src="assets/images/headshot.jpg " alt="Carl Janz " class="border border-bottom-0 " style="width: 100% ">
-                <div class="text-light py-1 text-center bg-dark border border-top-0 ">
-                    <a href="# " class="link-light ">
-                        <h4 class=" d-inline px-3 "><i class="fab fa-github "></i></h4>
-                    </a>
-                    <a href="# " class="link-light ">
-                        <h4 class="d-inline px-3 "><i class="fab fa-linkedin "></i></h4>
-                    </a>
-                    <a href="# " class="link-light ">
-                        <h4 class="d-inline px-3 "><i class="fas fa-at "></i></h4>
-                    </a>
-                    <a href="# " class="link-light ">
-                        <h4 class="d-inline px-3 "><i class="far fa-file "></i></h4>
-                    </a>
-                </div>
+    <div id="contact-a"></div>
+    <div class="container" id="contact">
+        <div class="col light-card">
+            <div class="light-card-header dark-skew-element contact-card-head-skew">
+                <h2 class="contact-title-text">Contact Me</h2>
             </div>
-            <div class="col-12 col-md-8 bg-primary ">
-                <h3>Hello</h3>
+            <div class="light-card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="email-input">Email address</label>
+                        <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="name-input">Name</label>
+                        <input type="text" class="form-control" id="name-input" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message-input">Message</label>
+                        <textarea class="form-control" id="message-input" rows="3"></textarea>
+                    </div>
+                    <button type="submit" id="form-submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
         </div>
     </div>
+
+    <div class="transition "></div>
 
     <!-- ----------------------------------- 
 
@@ -166,9 +235,9 @@
 
     ------------------------------------ -->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
 </body>
 
 </html>

@@ -3,31 +3,42 @@
     --dark-color: #343a40;
     --light-color: #f8f9fa;
     --accent-color: #fda102;
+    --accent-blue: #007bff;
 }
 
 body {
     background-image: url(../images/dark-honeycomb/dark-honeycomb.png);
+    overflow-x: hidden;
 }
 
 h1,
+h2,
 h3 {
     font-family: 'Righteous', cursive;
+    margin: 0;
 }
 
 h1 {
     color: var(--dark-color);
-    transform: skewX(45deg);
+    transform: skewX(45deg) translateX(8px);
     padding: 0 33px;
 }
 
+a,
+nav h3 {
+    transition: color .5s;
+}
+
 nav {
-    border-bottom: 2px solid var(--accent-color);
     background-color: var(--dark-color);
 }
 
+.navbar {
+    padding: 0;
+}
+
 .navbar-brand {
-    background-color: var(--light-color);
-    transform: skewX(-45deg) translateX(-33px);
+    transform: skewX(-45deg) translateX(-30px);
 }
 
 .navbar-toggler {
@@ -44,11 +55,11 @@ nav {
 }
 
 nav h3 {
-    transition: color .5s;
     padding: 12px 0;
 }
 
-nav h3:hover {
+nav h3:hover,
+a:hover {
     color: var(--accent-color);
     text-decoration: none;
 }
@@ -63,13 +74,21 @@ nav h3:hover {
 }
 
 .navbar-nav {
-    transform: skewX(-45deg) translateX(45px);
+    transform: skewX(-45deg) translateX(63px);
     padding: .50px 30px 0;
-    background-color: var(--light-color);
 }
 
 .navbar-nav h3 {
     transform: skewX(45deg) translateX(-15px);
+}
+
+.light-card {
+    background-color: var(--light-color);
+    overflow: hidden;
+}
+
+.light-card-body {
+    padding: 20px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -81,4 +100,102 @@ nav h3:hover {
     .navbar-nav h3 {
         color: var(--light-color);
     }
+}
+
+
+/* Portfolio */
+
+.portfolio-hero {
+    height: 300px;
+    width: 500px;
+}
+
+.portfolio-card {
+    background-color: var(--dark-color);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.portfolio-card-head-skew {
+    transform: skewX(-45deg) translateX(-22px);
+    padding: 3px 15px 3px;
+}
+
+.brand-card-head-skew {
+    transform: skewX(-45deg) translateX(-520px);
+    padding: 3px 15px 3px;
+}
+
+.contact-card-head-skew {
+    transform: skewX(-45deg) translateX(-870px);
+    padding: 3px 15px 3px;
+}
+
+.skew-element {
+    border-bottom: 3px solid var(--accent-color);
+    border-right: 18px solid var(--accent-color);
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.dark-skew-element {
+    border-bottom: 3px solid var(--accent-blue);
+    border-right: 18px solid var(--accent-blue);
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+.anti-skew-element {
+    transform: skewX(45deg);
+}
+
+.portfolio-title-text {
+    display: inline-block;
+    color: var(--dark-color);
+    padding-left: 20px;
+    margin: 0;
+}
+
+.brand-title-text {
+    display: inline-block;
+    text-align: end;
+    transform: skewX(45deg) translateX(510px)
+}
+
+.contact-title-text {
+    display: inline-block;
+    text-align: end;
+    transform: skewX(45deg) translateX(850px)
+}
+
+.icon-link {
+    padding: 0 3px;
+    display: inline-block;
+}
+
+.icon-link>h4 {
+    margin: 0;
+}
+
+.portfolio-text {
+    color: var(--light-color);
+}
+
+.portfolio-description {
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.portfolio-text-container {
+    padding: 20px;
+}
+
+.portfolio-row {
+    margin: 150px 0;
+}
+
+#about-a,
+#contact-a,
+#portfolio-a {
+    height: 150px
 }
