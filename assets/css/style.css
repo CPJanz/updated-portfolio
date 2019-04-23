@@ -7,8 +7,20 @@
 }
 
 body {
-    background-image: url(../images/dark-honeycomb/dark-honeycomb.png);
     overflow-x: hidden;
+    background-image: url(../images/prism/prism.png);
+}
+
+#about-section {
+    background-image: url(../images/dark-honeycomb/dark-honeycomb.png);
+    padding-top: 100px;
+    padding-bottom: 300px;
+    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 95vh);
+}
+
+#about-border {
+    background-color: var(--accent-color);
+    clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 95vh);
 }
 
 h1,
@@ -65,12 +77,29 @@ a:hover {
 }
 
 .transition {
-    height: 300px;
+    margin: 200px 0 0 0;
+    transform: translateX(-68px);
+}
+
+.transition-element {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    transform: rotate(45deg);
+    margin: -15px 20px;
+    display: inline-block;
+}
+
+.offset-element {
+    width: 68px;
+    height: 50px;
+    background-color: red;
+    display: inline-block;
 }
 
 .project-card {
-    height: 200px;
-    width: 200px;
+    /* height: 25vh;
+    width: 25vw; */
 }
 
 .navbar-nav {
@@ -100,6 +129,17 @@ a:hover {
     .navbar-nav h3 {
         color: var(--light-color);
     }
+    .navbar-collapse>.skew-element {
+        border-bottom: none;
+        border-right: none;
+        background-color: inherit;
+    }
+}
+
+.brand-text {
+    padding-top: 3em;
+    font-size: 1.25em;
+    line-height: 2.5em;
 }
 
 
@@ -179,11 +219,13 @@ a:hover {
 
 .portfolio-text {
     color: var(--light-color);
+    font-size: 1em;
 }
 
 .portfolio-description {
     font-style: italic;
     padding-bottom: 10px;
+    font-size: 1.25em;
 }
 
 .portfolio-text-container {
@@ -195,7 +237,14 @@ a:hover {
 }
 
 #about-a,
-#contact-a,
 #portfolio-a {
-    height: 150px
+    /* height: 60px; */
+}
+
+#headshot {
+    width: 100%;
+}
+
+#portfolio-section {
+    margin-top: -100px
 }
