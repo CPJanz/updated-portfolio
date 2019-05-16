@@ -1,54 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Carl Janz</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/style.css"
+    />
     <script src="assets/javascript/main.js"></script>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- ----------------------------------- 
 
                 NAV BAR
 
     ------------------------------------ -->
 
-
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <!-- Logo -->
-        <a class="navbar-brand skew-element" href="#">
-            <h1>Carl Janz</h1>
-        </a>
-        <!-- Hamburger -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Nav -->
-        <div class="collapse navbar-collapse px-2" id="navbarNav">
-            <ul class="navbar-nav skew-element ml-auto text-right">
-                <li class="nav-item active">
-                    <a class="nav-link py-0" href="#about-a">
-                        <h3 class="link-dark">About</h3> <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-dark py-0" href="#portfolio-a">
-                        <h3 class="link-dark">Portfolio</h3>
-                    </a>
-                </li>
-            </ul>
-        </div>
+      <!-- Logo -->
+      <a class="navbar-brand skew-element" href="#">
+        <h1>Carl Janz</h1>
+      </a>
+      <!-- Hamburger -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Nav -->
+      <div class="collapse navbar-collapse px-2" id="navbarNav">
+        <ul class="navbar-nav skew-element ml-auto text-right">
+          <li class="nav-item active">
+            <a class="nav-link py-0" href="#about-a">
+              <h3 class="link-dark">About</h3>
+              <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark py-0" href="#portfolio-a">
+              <h3 class="link-dark">Portfolio</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <!-- ----------------------------------- 
@@ -58,41 +99,74 @@
     ------------------------------------ -->
 
     <div id="about-border">
-        <div id="about-a"></div>
-        <div id="about-section" class="container-fluid">
-            <div class="container pt-3 image-container " id="about">
-                <div class="row ">
-                    <!-- Headshot card -->
-                    <div class="col-12 col-md-4 ">
-                        <img id="headshot" src="assets/images/headshot.jpg " alt="Carl Janz " class="border border-bottom-0 ">
-                        <div class="text-light py-1 text-center bg-dark border border-top-0 ">
-                            <a href="https://github.com/CPJanz/" target="_blank" class="link-light">
-                                <h4 class=" d-inline px-3 "><i class="fab fa-github "></i></h4>
-                            </a>
-                            <a href="https://www.linkedin.com/in/carl-janz-46906830/" target="_blank" class="link-light">
-                                <h4 class="d-inline px-3 "><i class="fab fa-linkedin "></i></h4>
-                            </a>
-                            <a href="mailto:carl.janz@gmail.com" target="_blank" class="link-light">
-                                <h4 class="d-inline px-3 "><i class="fas fa-at "></i></h4>
-                            </a>
-                            <a href="https://drive.google.com/open?id=1jUFJ6RAS53445LLpBEs0gs9xAp6EeySY" target="_blank" class="link-light">
-                                <h4 class="d-inline px-3 "><i class="far fa-file "></i></h4>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Personal Brand card -->
-                    <div class="col-12 col-md-8 light-card">
-                        <div class="light-card-header dark-skew-element brand-card-head-skew">
-                            <h2 class="brand-title-text">About Me</h2>
-                        </div>
-                        <div class="light-card-body brand-text">
-                            Full Stack Developer. Transitioned to development after 6 years of Quality Assurance in the mobile games industry. I have a passion for learning about systems, understanding how they work, and creating amazing things with them. Strong fundamentals in
-                            JavaScript, HTML, CSS, JQuery, Node.js, and Agile Development.
-                        </div>
-                    </div>
-                </div>
+      <div id="about-a"></div>
+      <div id="about-section" class="container-fluid">
+        <div class="container pt-3 image-container " id="about">
+          <div class="row ">
+            <!-- Headshot card -->
+            <div class="col-12 col-lg-4 ">
+              <img
+                id="headshot"
+                src="assets/images/headshot.jpg "
+                alt="Carl Janz "
+                class="border border-bottom-0 d-none d-lg-inline"
+              />
+              <div
+                class="text-light py-1 text-center bg-dark border border-top-0"
+              >
+                <a
+                  href="https://github.com/CPJanz/"
+                  target="_blank"
+                  class="link-light"
+                >
+                  <h4 class=" d-inline px-3 ">
+                    <i class="fab fa-github "></i>
+                  </h4>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/carl-janz-46906830/"
+                  target="_blank"
+                  class="link-light"
+                >
+                  <h4 class="d-inline px-3 ">
+                    <i class="fab fa-linkedin "></i>
+                  </h4>
+                </a>
+                <a
+                  href="mailto:carl.janz@gmail.com"
+                  target="_blank"
+                  class="link-light"
+                >
+                  <h4 class="d-inline px-3 "><i class="fas fa-at "></i></h4>
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/1hwHi8lB3_BJybQ1xiiDVeSaRZ5v6uB__/view?usp=sharing"
+                  target="_blank"
+                  class="link-light"
+                >
+                  <h4 class="d-inline px-3 "><i class="far fa-file "></i></h4>
+                </a>
+              </div>
             </div>
+            <!-- Personal Brand card -->
+            <div class="col-12 col-lg-8 light-card">
+              <div
+                class="light-card-header dark-skew-element brand-card-head-skew"
+              >
+                <h2 class="brand-title-text">About Me</h2>
+              </div>
+              <div class="light-card-body brand-text">
+                Full Stack Developer. Transitioned to development after 6 years
+                of Quality Assurance in the mobile games industry. I have a
+                passion for learning about systems, understanding how they work,
+                and creating amazing things with them. Strong fundamentals in
+                MERN stack development in addition to HTML5, CSS3,
+                JavaScript(ES6), JQuery, and Agile and Scrum methodologies.
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- ----------------------------------- 
@@ -102,130 +176,223 @@
     ------------------------------------ -->
 
     <div id="portfolio-section" class="container-fluid">
-        <div id="portfolio-a"></div>
-        <div class="container pt-3 image-container" id="portfolio">
-            <div class="row portfolio-row">
-                <div class="col-6">
-                    <img class="d-none d-lg-inline portfolio-hero border" src="assets/images/food_hero.PNG" alt="Food for Thought">
-                </div>
-                <div class="col-lg-6 portfolio-card border">
-                    <div class="row">
-                        <div class=" portfolio-card-head-skew skew-element">
-                            <h4 class="portfolio-title-text anti-skew-element">Food for Thought</h4>
-                            <a href="https://github.com/hunterwiegand/Food-for-Thought" target="_blank" class="icon-link link-dark anti-skew-element">
-                                <h4><i class="fab fa-github "></i></h4>
-                            </a>
-                            <a href="https://github.com/hunterwiegand/Food-for-Thought" target="_blank" class="icon-link link-dark anti-skew-element">
-                                <h4><i class="fas fa-desktop"></i></h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row portfolio-text-container">
-                        <p class="portfolio-description portfolio-text">Catalogue your pantry, search for recipes, and plan your meals with this easy to use web application.</p>
+        <h2 class="text-light portfolio-header">
+          Portfolio
+        </h2>
+      </div>
 
-                        <p class="portfolio-notes portfolio-text">Worked with small group over the course of a week to put together a prototype meal planning site.</p>
-
-                        <p class="portfolio-notes portfolio-text"> I was responsible for consuming data provided by API calls and dynamically generating html objects.</p>
-
-                        <p class="portfolio-notes portfolio-text">TECH USED: </p>
-                        <ul class="portfolio-notes portfolio-text">
-                            <li>JQuery - AJAX, Dom manipulation, and dynamic html generation.</li>
-                            <li>Bootstrap - Modals and nav bar</li>
-                            <li>FireBase - Storing user data and secure login.</li>
-                            <li>API calls to Edamam - recipes and ingredient info. </li>
-                            <li>fullCalendar - javascript calendar to hold meal plans</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
+      <div id="portfolio-a"></div>
+      <div class="container pt-3 image-container" id="portfolio">
+        
             <div class="row  portfolio-row">
-                <div class="col-lg-6 portfolio-card border">
-                    <div class="row">
+                    <div class="col-lg-6 portfolio-card border">
+                      <div class="row">
                         <div class=" portfolio-card-head-skew skew-element">
-                            <h4 class="portfolio-title-text anti-skew-element">Watch the Screens</h4>
-                            <a href="https://github.com/EwRicklefs/Watch-the-screens" target="_blank" class="icon-link link-dark anti-skew-element">
-                                <h4><i class="fab fa-github "></i></h4>
-                            </a>
-                            <a href="https://thawing-escarpment-16041.herokuapp.com/" target="_blank" class="icon-link link-dark anti-skew-element">
-                                <h4><i class="fas fa-desktop"></i></h4>
-                            </a>
+                          <h4 class="portfolio-title-text anti-skew-element">
+                            Watch the Screens
+                          </h4>
+                          <a
+                            href="https://github.com/EwRicklefs/Watch-the-screens"
+                            target="_blank"
+                            class="icon-link link-dark anti-skew-element"
+                          >
+                            <h4><i class="fab fa-github "></i></h4>
+                          </a>
+                          <a
+                            href="https://thawing-escarpment-16041.herokuapp.com/"
+                            target="_blank"
+                            class="icon-link link-dark anti-skew-element"
+                          >
+                            <h4><i class="fas fa-desktop"></i></h4>
+                          </a>
                         </div>
-                    </div>
-                    <div class="row portfolio-text-container">
-                        <p class="portfolio-description portfolio-text">Real time updating scoreboard for the megagame Watch the Skies.</p>
-
-                        <p class="portfolio-notes portfolio-text">Worked with small group over the course of a week to put together a full stack site to facilitate running a game of Watch the Skies.</p>
-
-                        <p class="portfolio-notes portfolio-text"> I was responsible for creating the front end using handlebars to template views and consuming the data provided by calls to the database and game server to update those views.</p>
-
-                        <p class="portfolio-notes portfolio-text">TECH USED: </p>
+                      </div>
+                      <div class="row portfolio-text-container">
+                        <p class="portfolio-description portfolio-text">
+                          Real time updating scoreboard for the megagame Watch the Skies.
+                        </p>
+          
+                        <p class="portfolio-notes portfolio-text">
+                          Worked with small group over the course of a week to put
+                          together a full stack site to facilitate running a game of Watch
+                          the Skies.
+                        </p>
+          
+                        <p class="portfolio-notes portfolio-text">
+                          I was responsible for creating the front end using handlebars to
+                          template views and consuming the data provided by calls to the
+                          database and game server to update those views.
+                        </p>
+          
+                        <p class="portfolio-notes portfolio-text">TECH USED:</p>
                         <ul class="portfolio-notes portfolio-text">
-                            <li>Bootstrap - Modals and grid</li>
-                            <li>Express Handlebars - HTML templating</li>
-                            <li>MySQL and Sequelize - Storing game data.</li>
-                            <li>Socket.io - Updating clients based on actions taken by other clients.</li>
-                            <li>Express</li>
-                            <li>JQuery Marquee</li>
+                          <li>Bootstrap - Modals and grid</li>
+                          <li>Express Handlebars - HTML templating</li>
+                          <li>MySQL and Sequelize - Storing game data.</li>
+                          <li>
+                            Socket.io - Updating clients based on actions taken by other
+                            clients.
+                          </li>
+                          <li>Express</li>
+                          <li>JQuery Marquee</li>
                         </ul>
+                      </div>
                     </div>
-                </div>
-                <div class="col-6">
-                    <img class="d-none d-lg-inline portfolio-hero border" src="assets/images/WtS.gif" alt="Watch the Screens">
-                </div>
+                    <div class="col-6">
+                      <img
+                        class="d-none d-lg-inline portfolio-hero border"
+                        src="assets/images/WtS.gif"
+                        alt="Watch the Screens"
+                      />
+                    </div>
+                  </div>
+        
+        <div class="row portfolio-row">
+          <div class="col-lg-6 portfolio-card border">
+            <div class="row">
+              <div class=" portfolio-card-head-skew skew-element">
+                <h4 class="portfolio-title-text anti-skew-element">
+                  Food for Thought
+                </h4>
+                <a
+                  href="https://github.com/hunterwiegand/Food-for-Thought"
+                  target="_blank"
+                  class="icon-link link-dark anti-skew-element"
+                >
+                  <h4><i class="fab fa-github "></i></h4>
+                </a>
+                <a
+                  href="https://github.com/hunterwiegand/Food-for-Thought"
+                  target="_blank"
+                  class="icon-link link-dark anti-skew-element"
+                >
+                  <h4><i class="fas fa-desktop"></i></h4>
+                </a>
+              </div>
             </div>
+            <div class="row portfolio-text-container">
+              <p class="portfolio-description portfolio-text">
+                Catalogue your pantry, search for recipes, and plan your meals
+                with this easy to use web application.
+              </p>
 
-            <div class="row portfolio-row">
-                <div class="col-6">
-                    <img class="d-none d-lg-inline portfolio-hero border" src="assets/images/word_guess_hero.PNG" alt="Word Guess Game">
-                </div>
-                <div class="col-lg-6 portfolio-card border">
-                    <div class="row">
-                        <div class="portfolio-card-head-skew skew-element">
-                            <h4 class="portfolio-title-text anti-skew-element">Who's That Pokemon</h4>
-                            <a href="https://github.com/CPJanz/Word-Guess-Game" target="_blank" class="icon-link link-dark anti-skew-element">
-                                <h4><i class="fab fa-github "></i></h4>
-                            </a>
-                            <a href="https://cpjanz.github.io/Word-Guess-Game/" target="_blank" class="icon-link link-dark anti-skew-element">
-                                <h4><i class="fas fa-desktop"></i></h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row portfolio-text-container">
-                        <p class="portfolio-description portfolio-text">Can you guess the pokemon whose name is hidden in the pokeballs before you run out of guesses?</p>
+              <p class="portfolio-notes portfolio-text">
+                Worked with small group over the course of a week to put
+                together a prototype meal planning site.
+              </p>
 
-                        <p class="portfolio-notes portfolio-text">This front end site was an assignment in my coding bootcamp. The focus was on using jQuery for DOM manipulation.</p>
+              <p class="portfolio-notes portfolio-text">
+                I was responsible for consuming data provided by API calls and
+                dynamically generating html objects.
+              </p>
 
-                    </div>
-                </div>
+              <p class="portfolio-notes portfolio-text">TECH USED:</p>
+              <ul class="portfolio-notes portfolio-text">
+                <li>
+                  JQuery - AJAX, Dom manipulation, and dynamic html generation.
+                </li>
+                <li>Bootstrap - Modals and nav bar</li>
+                <li>FireBase - Storing user data and secure login.</li>
+                <li>API calls to Edamam - recipes and ingredient info.</li>
+                <li>fullCalendar - javascript calendar to hold meal plans</li>
+              </ul>
             </div>
-
-            <div class="row  portfolio-row">
-                <div class="col-lg-6 portfolio-card border">
-                    <div class="row">
-                        <div class=" portfolio-card-head-skew skew-element">
-                            <h4 class="portfolio-title-text anti-skew-element">The Difference Engine</h4>
-                        </div>
-                    </div>
-                    <div class="row portfolio-text-container">
-                        <p class="portfolio-description portfolio-text">Single page application displaying change logs of potential release candidates for a mobile game.</p>
-
-                        <p class="portfolio-notes portfolio-text">Worked with another developer create a serverless page generated by a client build.</p>
-
-                        <p class="portfolio-notes portfolio-text"> My responsibility was to, using handlebars, create html templates to display data from a json file consisting of changelogs from Git and Perforce and tickets updated in Jira.</p>
-
-                        <p class="portfolio-notes portfolio-text">TECH USED: </p>
-                        <ul class="portfolio-notes portfolio-text">
-                            <li>ember.js - HTML templating</li>
-                            <li>Git, Perforce, and Jira</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <img class="d-none d-lg-inline portfolio-hero border" src="assets/images/difference Engine.png" alt="The Arena">
-                </div>
-            </div>
+          </div>
+          <div class="col-6">
+                <img
+                  class="d-none d-lg-inline portfolio-hero border"
+                  src="assets/images/food_hero.PNG"
+                  alt="Food for Thought"
+                />
+              </div>
         </div>
+
+        <div class="row portfolio-row">
+          <div class="col-lg-6 portfolio-card border">
+            <div class="row">
+              <div class="portfolio-card-head-skew skew-element">
+                <h4 class="portfolio-title-text anti-skew-element">
+                  Who's That Pokemon
+                </h4>
+                <a
+                  href="https://github.com/CPJanz/Word-Guess-Game"
+                  target="_blank"
+                  class="icon-link link-dark anti-skew-element"
+                >
+                  <h4><i class="fab fa-github "></i></h4>
+                </a>
+                <a
+                  href="https://cpjanz.github.io/Word-Guess-Game/"
+                  target="_blank"
+                  class="icon-link link-dark anti-skew-element"
+                >
+                  <h4><i class="fas fa-desktop"></i></h4>
+                </a>
+              </div>
+            </div>
+            <div class="row portfolio-text-container">
+              <p class="portfolio-description portfolio-text">
+                Can you guess the pokemon whose name is hidden in the pokeballs
+                before you run out of guesses?
+              </p>
+
+              <p class="portfolio-notes portfolio-text">
+                This front end site was an assignment in my coding bootcamp. The
+                focus was on using jQuery for DOM manipulation.
+              </p>
+            </div>
+          </div>
+          <div class="col-6">
+                <img
+                  class="d-none d-lg-inline portfolio-hero border"
+                  src="assets/images/word_guess_hero.PNG"
+                  alt="Word Guess Game"
+                />
+              </div>
+        </div>
+
+        <div class="row  portfolio-row">
+          <div class="col-lg-6 portfolio-card border">
+            <div class="row">
+              <div class=" portfolio-card-head-skew skew-element">
+                <h4 class="portfolio-title-text anti-skew-element">
+                  The Difference Engine
+                </h4>
+              </div>
+            </div>
+            <div class="row portfolio-text-container">
+              <p class="portfolio-description portfolio-text">
+                Single page application displaying change logs of potential
+                release candidates for a mobile game.
+              </p>
+
+              <p class="portfolio-notes portfolio-text">
+                Worked with another developer to create a serverless page generated
+                by a client build.
+              </p>
+
+              <p class="portfolio-notes portfolio-text">
+                My responsibility was to, using handlebars, create html
+                templates to display data from a json file consisting of
+                changelogs from Git and Perforce and tickets updated in Jira.
+              </p>
+
+              <p class="portfolio-notes portfolio-text w-100">TECH USED:</p>
+              <ul class="portfolio-notes portfolio-text">
+                <li>ember.js - HTML templating</li>
+                <li>Git, Perforce, and Jira</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6">
+            <img
+              class="d-none d-lg-inline portfolio-hero border"
+              src="assets/images/difference Engine.png"
+              alt="The Arena"
+            />
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- ----------------------------------- 
@@ -234,9 +401,20 @@
 
     ------------------------------------ -->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+      crossorigin="anonymous "
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 "
+      crossorigin="anonymous "
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM "
+      crossorigin="anonymous "
+    ></script>
+  </body>
 </html>

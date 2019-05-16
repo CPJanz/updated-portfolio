@@ -1,250 +1,249 @@
-@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url("https://fonts.googleapis.com/css?family=Righteous");
 :root {
-    --dark-color: #343a40;
-    --light-color: #f8f9fa;
-    --accent-color: #fda102;
-    --accent-blue: #007bff;
+  --dark-color: #343a40;
+  --light-color: #f8f9fa;
+  --accent-color: #fda102;
+  --accent-blue: #007bff;
 }
 
 body {
-    overflow-x: hidden;
-    background-image: url(../images/prism/prism.png);
+  overflow-x: hidden;
+  background-image: url(../images/prism/prism.png);
 }
 
 #about-section {
-    background-image: url(../images/dark-honeycomb/dark-honeycomb.png);
-    padding-top: 100px;
-    padding-bottom: 300px;
-    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 95vh);
+  background-image: url(../images/dark-honeycomb/dark-honeycomb.png);
+  padding-top: 100px;
+  padding-bottom: 300px;
+  height: 150vh;
+  clip-path: polygon(0 0, 100% 0, 100% 98vh, 50% 113vh, 0 98vh);
 }
 
 #about-border {
-    background-color: var(--accent-color);
-    clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 95vh);
+  background-color: var(--accent-color);
+  clip-path: polygon(0 0, 100% 0, 100% 100vh, 50% 115vh, 0 100vh);
+}
+
+.portfolio-header {
+  text-align: center;
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Righteous', cursive;
-    margin: 0;
+  font-family: "Righteous", cursive;
+  margin: 0;
 }
 
 h1 {
-    color: var(--dark-color);
-    transform: skewX(45deg) translateX(8px);
-    padding: 0 33px;
+  color: var(--dark-color);
+  transform: skewX(45deg) translateX(8px);
+  padding: 0 33px;
 }
 
 a,
 nav h3 {
-    transition: color .5s;
+  transition: color 0.5s;
 }
 
 nav {
-    background-color: var(--dark-color);
+  background-color: var(--dark-color);
 }
 
 .navbar {
-    padding: 0;
+  padding: 0;
 }
 
 .navbar-brand {
-    transform: skewX(-45deg) translateX(-30px);
+  transform: skewX(-45deg) translateX(-30px);
 }
 
 .navbar-toggler {
-    border: none;
-    color: var(--light-color)
+  border: none;
+  color: var(--light-color);
 }
 
 .link-dark {
-    color: var(--dark-color);
+  color: var(--dark-color);
 }
 
 .link-light {
-    color: var(--light-color);
+  color: var(--light-color);
 }
 
 nav h3 {
-    padding: 12px 0;
+  padding: 12px 0;
 }
 
 nav h3:hover,
 a:hover {
-    color: var(--accent-color);
-    text-decoration: none;
+  color: var(--accent-color);
+  text-decoration: none;
 }
 
 .transition {
-    margin: 200px 0 0 0;
-    transform: translateX(-68px);
+  margin: 200px 0 0 0;
+  transform: translateX(-68px);
 }
 
 .transition-element {
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    transform: rotate(45deg);
-    margin: -15px 20px;
-    display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  transform: rotate(45deg);
+  margin: -15px 20px;
+  display: inline-block;
 }
 
 .offset-element {
-    width: 68px;
-    height: 50px;
-    background-color: red;
-    display: inline-block;
+  width: 68px;
+  height: 50px;
+  background-color: red;
+  display: inline-block;
 }
 
 .project-card {
-    /* height: 25vh;
+  /* height: 25vh;
     width: 25vw; */
 }
 
 .navbar-nav {
-    transform: skewX(-45deg) translateX(63px);
-    padding: .50px 30px 0;
+  transform: skewX(-45deg) translateX(63px);
+  padding: 0.5px 30px 0;
 }
 
 .navbar-nav h3 {
-    transform: skewX(45deg) translateX(-15px);
+  transform: skewX(45deg) translateX(-15px);
 }
 
 .light-card {
-    background-color: var(--light-color);
-    overflow: hidden;
+  background-color: var(--light-color);
+  overflow: hidden;
 }
 
 .light-card-body {
-    padding: 20px;
+  padding: 20px;
 }
 
 @media only screen and (max-width: 991px) {
-    .navbar-nav,
-    .navbar-nav h3 {
-        transform: skewX(0deg) translateX(0px);
-        background-color: var(--dark-color);
-    }
-    .navbar-nav h3 {
-        color: var(--light-color);
-    }
-    .navbar-collapse>.skew-element {
-        border-bottom: none;
-        border-right: none;
-        background-color: inherit;
-    }
+  .navbar-nav,
+  .navbar-nav h3 {
+    transform: skewX(0deg) translateX(0px);
+    background-color: var(--dark-color);
+  }
+  .navbar-nav h3 {
+    color: var(--light-color);
+  }
+  .navbar-collapse > .skew-element {
+    border-bottom: none;
+    border-right: none;
+    background-color: inherit;
+  }
 }
 
 .brand-text {
-    padding-top: 3em;
-    font-size: 1.25em;
-    line-height: 2.5em;
+  padding-top: 3em;
+  font-size: 1.25em;
+  line-height: 2.5em;
 }
-
 
 /* Portfolio */
 
 .portfolio-hero {
-    height: 300px;
-    width: 500px;
+  height: 300px;
+  width: 500px;
 }
 
 .portfolio-card {
-    background-color: var(--dark-color);
-    border-radius: 3px;
-    overflow: hidden;
+  background-color: var(--dark-color);
+  border-radius: 3px;
+  overflow: hidden;
 }
 
 .portfolio-card-head-skew {
-    transform: skewX(-45deg) translateX(-22px);
-    padding: 3px 15px 3px;
+  transform: skewX(-45deg) translateX(-22px);
+  padding: 3px 15px 3px;
 }
 
 .brand-card-head-skew {
-    transform: skewX(-45deg) translateX(-520px);
-    padding: 3px 15px 3px;
+  transform: skewX(-45deg) translateX(-520px);
+  padding: 3px 15px 3px;
 }
 
 .contact-card-head-skew {
-    transform: skewX(-45deg) translateX(-870px);
-    padding: 3px 15px 3px;
+  transform: skewX(-45deg) translateX(-870px);
+  padding: 3px 15px 3px;
 }
 
 .skew-element {
-    border-bottom: 3px solid var(--accent-color);
-    border-right: 18px solid var(--accent-color);
-    background-color: var(--light-color);
-    color: var(--dark-color);
+  border-bottom: 3px solid var(--accent-color);
+  border-right: 18px solid var(--accent-color);
+  background-color: var(--light-color);
+  color: var(--dark-color);
 }
 
 .dark-skew-element {
-    border-bottom: 3px solid var(--accent-blue);
-    border-right: 18px solid var(--accent-blue);
-    background-color: var(--dark-color);
-    color: var(--light-color);
+  border-bottom: 3px solid var(--accent-blue);
+  border-right: 18px solid var(--accent-blue);
+  background-color: var(--dark-color);
+  color: var(--light-color);
 }
 
 .anti-skew-element {
-    transform: skewX(45deg);
+  transform: skewX(45deg);
 }
 
 .portfolio-title-text {
-    display: inline-block;
-    color: var(--dark-color);
-    padding-left: 20px;
-    margin: 0;
+  display: inline-block;
+  color: var(--dark-color);
+  padding-left: 20px;
+  margin: 0;
 }
 
 .brand-title-text {
-    display: inline-block;
-    text-align: end;
-    transform: skewX(45deg) translateX(510px)
+  display: inline-block;
+  text-align: end;
+  transform: skewX(45deg) translateX(510px);
 }
 
 .contact-title-text {
-    display: inline-block;
-    text-align: end;
-    transform: skewX(45deg) translateX(850px)
+  display: inline-block;
+  text-align: end;
+  transform: skewX(45deg) translateX(850px);
 }
 
 .icon-link {
-    padding: 0 3px;
-    display: inline-block;
+  padding: 0 3px;
+  display: inline-block;
 }
 
-.icon-link>h4 {
-    margin: 0;
+.icon-link > h4 {
+  margin: 0;
 }
 
 .portfolio-text {
-    color: var(--light-color);
-    font-size: 1em;
+  color: var(--light-color);
+  font-size: 1em;
 }
 
 .portfolio-description {
-    font-style: italic;
-    padding-bottom: 10px;
-    font-size: 1.25em;
+  font-style: italic;
+  padding-bottom: 10px;
+  font-size: 1.25em;
 }
 
 .portfolio-text-container {
-    padding: 20px;
+  padding: 20px;
 }
 
 .portfolio-row {
-    margin: 150px 0;
-}
-
-#about-a,
-#portfolio-a {
-    /* height: 60px; */
+  margin: 150px 0;
 }
 
 #headshot {
-    width: 100%;
+  width: 100%;
 }
 
 #portfolio-section {
-    margin-top: -100px
+  margin-top: -100px;
 }
