@@ -125,22 +125,6 @@ a:hover {
   padding: 20px;
 }
 
-@media only screen and (max-width: 991px) {
-  .navbar-nav,
-  .navbar-nav h3 {
-    transform: skewX(0deg) translateX(0px);
-    background-color: var(--dark-color);
-  }
-  .navbar-nav h3 {
-    color: var(--light-color);
-  }
-  .navbar-collapse > .skew-element {
-    border-bottom: none;
-    border-right: none;
-    background-color: inherit;
-  }
-}
-
 .brand-text {
   padding-top: 3em;
   font-size: 1.25em;
@@ -246,4 +230,40 @@ a:hover {
 
 #portfolio-section {
   margin-top: -100px;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-nav,
+  .navbar-nav h3 {
+    transform: skewX(0deg) translateX(0px);
+    background-color: var(--dark-color);
+  }
+  .navbar-nav h3 {
+    color: var(--light-color);
+  }
+  .navbar-collapse > .skew-element {
+    border-bottom: none;
+    border-right: none;
+    background-color: inherit;
+  }
+
+  #about-section {
+    clip-path: none;
+  }
+
+  #about-border {
+    clip-path: none;
+  }
+
+  #portfolio-section {
+    margin-top: 150px;
+  }
+
+  .brand-card-head-skew {
+    transform: translateX(-100px) skewX(-45deg);
+  }
+
+  .brand-title-text {
+    transform: translateX(80px) skewX(45deg);
+  }
 }
