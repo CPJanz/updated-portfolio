@@ -161,7 +161,7 @@
                 passion for learning about systems, understanding how they work,
                 and creating amazing things with them. Strong fundamentals in
                 MERN stack development in addition to HTML5, CSS3,
-                JavaScript(ES6), JQuery, and Agile and Scrum methodologies.
+                JavaScript(ES6), JQuery, ember.js and Agile and Scrum methodologies.
               </div>
             </div>
           </div>
@@ -183,72 +183,127 @@
 
       <div id="portfolio-a"></div>
       <div class="container pt-3 image-container" id="portfolio">
-        
-            <div class="row  portfolio-row">
-                    <div class="col-lg-6 portfolio-card border">
-                      <div class="row">
-                        <div class=" portfolio-card-head-skew skew-element">
-                          <h4 class="portfolio-title-text anti-skew-element">
-                            Watch the Screens
-                          </h4>
-                          <a
-                            href="https://github.com/EwRicklefs/Watch-the-screens"
-                            target="_blank"
-                            class="icon-link link-dark anti-skew-element"
-                          >
-                            <h4><i class="fab fa-github "></i></h4>
-                          </a>
-                          <a
-                            href="https://thawing-escarpment-16041.herokuapp.com/"
-                            target="_blank"
-                            class="icon-link link-dark anti-skew-element"
-                          >
-                            <h4><i class="fas fa-desktop"></i></h4>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="row portfolio-text-container">
-                        <p class="portfolio-description portfolio-text">
-                          Real time updating scoreboard for the megagame Watch the Skies.
-                        </p>
-          
-                        <p class="portfolio-notes portfolio-text">
-                          Worked with small group over the course of a week to put
-                          together a full stack site to facilitate running a game of Watch
-                          the Skies.
-                        </p>
-          
-                        <p class="portfolio-notes portfolio-text">
-                          I was responsible for creating the front end using handlebars to
-                          template views and consuming the data provided by calls to the
-                          database and game server to update those views.
-                        </p>
-          
-                        <p class="portfolio-notes portfolio-text">TECH USED:</p>
-                        <ul class="portfolio-notes portfolio-text">
-                          <li>Bootstrap - Modals and grid</li>
-                          <li>Express Handlebars - HTML templating</li>
-                          <li>MySQL and Sequelize - Storing game data.</li>
-                          <li>
-                            Socket.io - Updating clients based on actions taken by other
-                            clients.
-                          </li>
-                          <li>Express</li>
-                          <li>JQuery Marquee</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="col-6">
-                      <img
-                        class="d-none d-lg-inline portfolio-hero border"
-                        src="assets/images/WtS.gif"
-                        alt="Watch the Screens"
-                      />
-                    </div>
-                  </div>
-        
         <div class="row portfolio-row">
-          <div class="col-lg-6 portfolio-card border">
+          <div class="col-lg-6 portfolio-card mb-3 border">
+            <div class="row">
+              <div class=" portfolio-card-head-skew skew-element">
+                <h4 class="portfolio-title-text anti-skew-element">
+                  Freebeez
+                </h4>
+                <a
+                  href="https://github.com/CPJanz/Freebies-Front"
+                  target="_blank"
+                  class="icon-link link-dark anti-skew-element"
+                >
+                  <h4><i class="fab fa-github "></i></h4>
+                </a>
+                <a
+                  href="https://github.com/CPJanz/Freebies-Backend"
+                  target="_blank"
+                  class="icon-link link-dark anti-skew-element"
+                >
+                  <h4><i class="fab fa-github"></i></h4>
+                </a>
+                <a
+                  href="https://testflight.apple.com/join/4hJTDcb9"
+                  target="_blank"
+                  class="icon-link link-dark anti-skew-element"
+                >
+                  <h4><i class="fab fa-app-store-ios"></i></h4>
+                </a>
+              </div>
+            </div>
+            <div class="row portfolio-text-container">
+              <p class="portfolio-description portfolio-text">
+                An easy to use iOS app for locally finding and giving household items.
+              </p>
+
+              <p class="portfolio-notes portfolio-text">
+                Full MERN stack iOS application developed using React Native.
+              </p>
+
+              <p class="portfolio-notes portfolio-text">
+                I was responsible for creating the database model and creating the item API. I also took on the role of Git master and release manager.
+              </p>
+
+              <p class="portfolio-notes portfolio-text">TECH USED:</p>
+              <ul class="portfolio-notes portfolio-text">
+                <li>React Native - UI & UX</li>
+                <li>Expo - Build creation and camera and geolocation access</li>
+                <li>Mongodb - Storing user and item data</li>
+                <li>Firebase - Storage for user generated images</li>
+                <li>Express</li>
+              </ul>
+            </div>
+        </div>
+          <!-- <div class="col-6">
+            <img
+              class="d-none d-lg-inline portfolio-hero border"
+              src="assets/images/WtS.gif"
+              alt="Watch the Screens"
+            />
+          </div> -->
+          <div class="col-lg-6 portfolio-card mb-3 border">
+              <div class="row">
+                <div class=" portfolio-card-head-skew skew-element">
+                  <h4 class="portfolio-title-text anti-skew-element">
+                    Watch the Screens
+                  </h4>
+                  <a
+                    href="https://github.com/EwRicklefs/Watch-the-screens"
+                    target="_blank"
+                    class="icon-link link-dark anti-skew-element"
+                  >
+                    <h4><i class="fab fa-github "></i></h4>
+                  </a>
+                  <a
+                    href="https://thawing-escarpment-16041.herokuapp.com/"
+                    target="_blank"
+                    class="icon-link link-dark anti-skew-element"
+                  >
+                    <h4><i class="fas fa-desktop"></i></h4>
+                  </a>
+                </div>
+              </div>
+              <div class="row portfolio-text-container">
+                <p class="portfolio-description portfolio-text">
+                  Real time updating scoreboard for the megagame Watch the Skies.
+                </p>
+  
+                <p class="portfolio-notes portfolio-text">
+                  Worked with small group over the course of a week to put
+                  together a full stack site to facilitate running a game of Watch
+                  the Skies.
+                </p>
+  
+                <p class="portfolio-notes portfolio-text">
+                  I was responsible for creating the front end using handlebars to
+                  template views and consuming the data provided by calls to the
+                  database and game server to update those views.
+                </p>
+  
+                <p class="portfolio-notes portfolio-text">TECH USED:</p>
+                <ul class="portfolio-notes portfolio-text">
+                  <li>Bootstrap - Modals and grid</li>
+                  <li>Express Handlebars - HTML templating</li>
+                  <li>MySQL and Sequelize - Storing game data.</li>
+                  <li>
+                    Socket.io - Updating clients based on actions taken by other
+                    clients.
+                  </li>
+                  <li>Express</li>
+                  <li>JQuery Marquee</li>
+                </ul>
+              </div>
+          </div>
+            <!-- <div class="col-6">
+              <img
+                class="d-none d-lg-inline portfolio-hero border"
+                src="assets/images/WtS.gif"
+                alt="Watch the Screens"
+              />
+            </div> -->
+          <div class="col-lg-6 portfolio-card mb-3 border">
             <div class="row">
               <div class=" portfolio-card-head-skew skew-element">
                 <h4 class="portfolio-title-text anti-skew-element">
@@ -298,17 +353,14 @@
               </ul>
             </div>
           </div>
-          <div class="col-6">
+          <!-- <div class="col-6">
                 <img
                   class="d-none d-lg-inline portfolio-hero border"
                   src="assets/images/food_hero.PNG"
                   alt="Food for Thought"
                 />
-              </div>
-        </div>
-
-        <div class="row portfolio-row">
-          <div class="col-lg-6 portfolio-card border">
+              </div> -->
+          <div class="col-lg-6 portfolio-card mb-3 border">
             <div class="row">
               <div class="portfolio-card-head-skew skew-element">
                 <h4 class="portfolio-title-text anti-skew-element">
@@ -342,17 +394,14 @@
               </p>
             </div>
           </div>
-          <div class="col-6">
+          <!-- <div class="col-6">
                 <img
                   class="d-none d-lg-inline portfolio-hero border"
                   src="assets/images/word_guess_hero.PNG"
                   alt="Word Guess Game"
                 />
-              </div>
-        </div>
-
-        <div class="row  portfolio-row">
-          <div class="col-lg-6 portfolio-card border">
+              </div> -->
+          <div class="col-lg-6 portfolio-card mb-3 border">
             <div class="row">
               <div class=" portfolio-card-head-skew skew-element">
                 <h4 class="portfolio-title-text anti-skew-element">
@@ -382,15 +431,19 @@
                 <li>ember.js - HTML templating</li>
                 <li>Git, Perforce, and Jira</li>
               </ul>
+
+              <p class="portfolio-notes portfolio-text">
+                Codebase not accesible due to being IP restrictions.
+              </p>
             </div>
           </div>
-          <div class="col-6">
+          <!-- <div class="col-6">
             <img
               class="d-none d-lg-inline portfolio-hero border"
               src="assets/images/difference Engine.png"
               alt="The Difference Engine"
             />
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
